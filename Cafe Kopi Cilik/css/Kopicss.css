@@ -1,0 +1,182 @@
+/*
+    Background Color :      #3a4a58
+    Title Color :           #996633
+    Text Color :            #666666
+    Text Dark Color :       #333333
+    Table Heading Color :   #C4CDD6
+    Table Alternate Color : #e5e8ed
+*/
+
+body {
+    background-color: bisque;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 0%;
+}
+
+.tm-container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tm-text-white{
+    color: black;
+}
+
+.tm-page-header{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+.tm-main-content{
+    color: black;
+}
+
+#tm-intro-img{
+    background-image: url(../img/kopcil.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 425px;
+}
+
+.tm-section-header{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+td{
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tm-text-left{
+    text-align: center;
+}
+
+th{
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e5e5e5;
+}
+
+tr.tm-tr-header{
+    background-color: #c4cdd6;
+}
+
+.tm-section{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.tm-section-small{
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.tm-mb-0{
+    margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    text-align: center;
+}
+
+figcaption span{
+    display: block;
+    color: #333333;
+    font-size: 18px;
+}
+
+.tm-item-name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tm-special-items{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.tm-special-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr{
+    width: 60%;
+    border: 0.5px solid #ccc;
+}
+
+@media (max-widht: 550px) {
+    .tm-special-item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tm-special-item{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+@media (max-widht: 480px) {
+    .tm-special-item{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .tm-special-item{
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
+@media (max-widht: 430px){
+    .tm-responsive-table { overflow-x: auto; }
+    table { width: auto; }
+    .tm-special-items {flex-direction: column;}
+    .tm-special-item {margin-bottom: 40px;}
+    figcaption p {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+}
